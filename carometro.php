@@ -3,9 +3,9 @@
 session_start();
 
 // Conexão com o banco de dados
-$servidor = "localhost";
+$servidor = "db"; // altere de "localhost" para "db"
 $usuario = "root";
-$senha = "";
+$senha = "root";
 $banco = "carometro";
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
